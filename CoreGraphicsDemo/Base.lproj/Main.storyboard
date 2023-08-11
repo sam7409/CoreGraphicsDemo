@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreGraphicsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CDU-FN-aE1">
+                                <rect key="frame" x="19" y="66.5" width="337.5" height="534"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="As4-DX-day">
+                                        <rect key="frame" x="54" y="217" width="229" height="100"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.63982705959999997" green="0.82258128159999999" blue="0.80869873560000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="As4-DX-day" firstAttribute="centerY" secondItem="CDU-FN-aE1" secondAttribute="centerY" id="JBc-sk-0KB"/>
+                                    <constraint firstItem="As4-DX-day" firstAttribute="centerX" secondItem="CDU-FN-aE1" secondAttribute="centerX" id="iiI-Em-OXf"/>
+                                    <constraint firstItem="As4-DX-day" firstAttribute="height" secondItem="CDU-FN-aE1" secondAttribute="height" multiplier="0.187775" id="o8y-fT-VLg"/>
+                                    <constraint firstItem="As4-DX-day" firstAttribute="width" secondItem="CDU-FN-aE1" secondAttribute="width" multiplier="0.678605" id="rH1-QY-CGO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="CDU-FN-aE1" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.8" id="5jx-QP-jbH"/>
+                            <constraint firstItem="CDU-FN-aE1" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="OUd-nh-GtJ"/>
+                            <constraint firstItem="CDU-FN-aE1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Yuw-Sp-GSP"/>
+                            <constraint firstItem="CDU-FN-aE1" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="q1g-ge-cc7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="shapeView" destination="As4-DX-day" id="5pe-ml-Dbf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="-2"/>
+        </scene>
+    </scenes>
+</document>

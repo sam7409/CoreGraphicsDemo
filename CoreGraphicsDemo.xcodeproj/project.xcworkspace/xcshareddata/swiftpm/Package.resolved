@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios_filtersspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mobisoft-Labs/IOS_FiltersSPM.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d4f7ce819634a9746e9c854c6d14c85e0b8f8db6"
+      }
+    }
+  ],
+  "version" : 2
+}
